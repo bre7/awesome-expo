@@ -7,7 +7,7 @@
   </picture>
 </a>
 
-> Useful resources for creating apps with [Expo](https://expo.io/)
+> Useful resources for creating apps with [Expo](https://expo.dev/)
 
 ## Contents
 
