@@ -1,0 +1,23 @@
+name: "\U0001F64B Feature Request"
+description: 'Add new library/demo to the repo'
+labels: ['enhancement']
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping us make Expo even better! We want our docs to be an amazing resource, and that requires your feedback!
+  - type: input
+    attributes:
+      label: source-code
+      description: Enter link to repo (e.g. https://github.com/react-native-elements/react-native-elements)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: filename-packagejson
+      description: Relative path to package.json (e.g. example/package.json)
+  - type: textarea
+    attributes:
+      label: summary
+      description: App/Demo description summary
+    validations:
+      required: true
